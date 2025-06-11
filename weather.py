@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # ✅ Replace these with your actual API key and bot token
-ACCUWEATHER_API_KEY = 'na0TQR9bVQGiZBnhObsxpOAIf3GKKK7G'
-TELEGRAM_BOT_TOKEN = '7886254355:AAGhyMXCoaU61FX95cbWoywl7s8rZTR0GsY'
+ACCUWEATHER_API_KEY = 'your_accuweather_api_key'
+TELEGRAM_BOT_TOKEN = 'your_telegram_bot_token'
 
 # 🔍 Get location key for city
 def get_location_key(city_name):
